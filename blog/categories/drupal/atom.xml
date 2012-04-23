@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Drupal | allplayers.com dev blog]]></title>
+  <link href="http://allplayers.github.com/blog/categories/drupal/atom.xml" rel="self"/>
+  <link href="http://allplayers.github.com/"/>
+  <updated>2012-04-23T10:45:55-05:00</updated>
+  <id>http://allplayers.github.com/</id>
+  <author>
+    <name><![CDATA[AllPlayers]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up]]></title>
+    <link href="http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/"/>
+    <updated>2012-04-12T15:31:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up</id>
+    <content type="html"><![CDATA[<p>Join Chris, Max, David, James and Allen from AllPlayers as they talk about the latest drupal news, how we planned to plan, and much more!</p>
+
+<p>Get it while it's hot!</p>
+
+<p><a href="https://s3.amazonaws.com/allplayers/april-2+2012.mp3">AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #1 - Planning To Plan]]></title>
+    <link href="http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan/"/>
+    <updated>2012-03-21T15:25:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan</id>
+    <content type="html"><![CDATA[<p>So we finally did it! We started a podcast. Join Chris, Max, Travis, David, James and Allen from AllPlayers as they talk about the latest drupal news, how we planned to plan, and much more!</p>
+
+<p>Get it while it's hot!</p>
+
+<p><a href="https://s3.amazonaws.com/allplayers/march-12.mp3">AllPlayers Kick Awesome Podcast #1 - Planning to Plan</a></p>
+]]></content>
+  </entry>
+  
+</feed>
