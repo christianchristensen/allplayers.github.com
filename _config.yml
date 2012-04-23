@@ -1,6 +1,0 @@
-source:      .
-destination: ./_site
-auto: true
-server: true
-markdown: rdiscount
-# pygments: true
