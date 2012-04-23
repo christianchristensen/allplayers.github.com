@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Drupal | allplayers.com dev blog]]></title>
-  <link href="http://jamesiarmes.github.com/blog/categories/drupal/atom.xml" rel="self"/>
-  <link href="http://jamesiarmes.github.com/"/>
-  <updated>2012-04-23T18:40:20-04:00</updated>
-  <id>http://jamesiarmes.github.com/</id>
+  <link href="http://allplayers.github.com/blog/categories/drupal/atom.xml" rel="self"/>
+  <link href="http://allplayers.github.com/"/>
+  <updated>2012-04-23T18:51:26-04:00</updated>
+  <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up]]></title>
-    <link href="http://jamesiarmes.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/"/>
+    <link href="http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/"/>
     <updated>2012-04-12T15:31:00-04:00</updated>
-    <id>http://jamesiarmes.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up</id>
+    <id>http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up</id>
     <content type="html"><![CDATA[<p>Join Chris, Max, David, James and Allan from AllPlayers as they talk about the latest drupal news, how we planned to plan, and much more!</p>
 
 <p>Get it while it's hot!</p>
@@ -61,9 +61,9 @@
   
   <entry>
     <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #1 - Planning To Plan]]></title>
-    <link href="http://jamesiarmes.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan/"/>
+    <link href="http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan/"/>
     <updated>2012-03-21T15:25:00-04:00</updated>
-    <id>http://jamesiarmes.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan</id>
+    <id>http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan</id>
     <content type="html"><![CDATA[<p>So we finally did it! We started a podcast. Join Chris, Max, Travis, David, James and Allan from AllPlayers as they talk about the latest drupal news, how we planned to plan, and much more!</p>
 
 <p>Get it while it's hot!</p>
