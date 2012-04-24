@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: General | allplayers.com dev blog]]></title>
+  <title><![CDATA[General | AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-04-23T15:18:52-05:00</updated>
+  <updated>2012-04-24T16:49:07-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
     
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+  <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
 
   
   <entry>
