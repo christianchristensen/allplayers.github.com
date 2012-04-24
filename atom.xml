@@ -4,7 +4,7 @@
   <title><![CDATA[allplayers.com dev blog]]></title>
   <link href="http://allplayers.github.com/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-04-23T15:18:52-05:00</updated>
+  <updated>2012-04-23T18:51:26-04:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[AllPlayers.com Wins 2012 Blue Drop Award for Best Social Networking Website Built with Drupal]]></title>
     <link href="http://allplayers.github.com/blog/2012/04/19/allplayers-dot-com-wins-2012-blue-drop-award-for-best-social-networking-website-built-with-drupal/"/>
-    <updated>2012-04-19T10:40:00-05:00</updated>
+    <updated>2012-04-19T10:40:00-04:00</updated>
     <id>http://allplayers.github.com/blog/2012/04/19/allplayers-dot-com-wins-2012-blue-drop-award-for-best-social-networking-website-built-with-drupal</id>
     <content type="html"><![CDATA[<p>After more than a month of nominations and community voting, Irving-based <a href="https://www.allplayers.com">AllPlayers.com</a> has been awarded the &#8220;2012 Best Social Networking Website Built with Drupal&#8221; by the <a href="http://bluedropawards.com">Blue Drop Awards</a> in its inaugural season. The prestigious award was given to <a href="https://www.allplayers.com">AllPlayers.com</a> for their group management and administrative website.</p>
 
@@ -39,26 +39,84 @@
   <entry>
     <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up]]></title>
     <link href="http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/"/>
-    <updated>2012-04-12T15:31:00-05:00</updated>
+    <updated>2012-04-12T15:31:00-04:00</updated>
     <id>http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up</id>
     <content type="html"><![CDATA[<p>Join Chris, Max, David, James and Allan from AllPlayers as they talk about the latest drupal news, how we planned to plan, and much more!</p>
 
 <p>Get it while it&#8217;s hot!</p>
 
 <p><a href="https://s3.amazonaws.com/allplayers/april-2+2012.mp3">AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up</a></p>
+
+<h2>Links from the show</h2>
+
+<ul>
+<li><a href="https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md">PSR-0</a></li>
+<li><a href="http://us.php.net/namespaces">Namespaces</a></li>
+<li><a href="http://symfony.com/components">Symfony Components</a></li>
+<li><a href="http://twig.sensiolabs.org/">Twig</a> / <a href="http://drupal.org/node/1441320">Twig in Drupal</a> / <a href="https://github.com/schmittjoh/twig.js">twig.js</a></li>
+<li><a href="http://jacine.net/post/19652705220/theme-system">Let’s Do Something About Drupal’s Theme System</a></li>
+<li><a href="http://jacine.github.com/drupal/">A draft of proposed components and coding standards for Drupal 8</a></li>
+</ul>
+
+
+<h2>Picks of the week</h2>
+
+<ul>
+<li>Allan: <a href="http://blogs.discovermagazine.com/discoblog/2010/09/07/speed-bumps-of-the-future-creepy-optical-illusion-children/">Speed Bumps of the Future: Creepy Optical Illusion Children</a></li>
+<li>Chris: <a href="http://blog.ircmaxell.com/2012/03/phps-source-code-for-php-developers.html">PHP&#8217;s Source Code For PHP Developers</a></li>
+<li>David: <a href="http://twig.sensiolabs.org/">Twig</a></li>
+<li>Max: <a href="http://learndrupal.org/">Learn Drupal</a> / <a href="http://shichuan.github.com/javascript-patterns/">JS Patterns</a></li>
+</ul>
+
+
+<h2>Show hosts</h2>
+
+<ul>
+<li>James Armes: <a href="http://drupal.org/user/284457">BassistJimmyJam</a> / <a href="https://twitter.com/jamesiarmes">@jamesiarmes</a></li>
+<li>Allan Chappell: <a href="http://drupal.org/user/368854">generalredneck</a> / <a href="https://twitter.com/general_redneck">@general_redneck</a></li>
+<li>Chris Christensen: <a href="http://drupal.org/user/595250">christianchristensen</a> / <a href="https://twitter.com/imetchrischris">@imetchrischris</a></li>
+<li>David Lanier: <a href="http://drupal.org/user/89512">nadavoid</a> / <a href="https://twitter.com/nadavoid">@nadavoid</a></li>
+<li>Max Pecherskiy: <a href="http://drupal.org/user/801596">MrMaksimize</a> / <a href="https://twitter.com/mrmaksimize">@mrmaksimize</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #1 - Planning To Plan]]></title>
     <link href="http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan/"/>
-    <updated>2012-03-21T15:25:00-05:00</updated>
+    <updated>2012-03-21T15:25:00-04:00</updated>
     <id>http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan</id>
     <content type="html"><![CDATA[<p>So we finally did it! We started a podcast. Join Chris, Max, Travis, David, James and Allan from AllPlayers as they talk about the latest drupal news, how we planned to plan, and much more!</p>
 
 <p>Get it while it&#8217;s hot!</p>
 
 <p><a href="https://s3.amazonaws.com/allplayers/march-12.mp3">AllPlayers Kick Awesome Podcast #1 - Planning to Plan</a></p>
+
+<h2>Links from the show</h2>
+
+<ul>
+<li><a href="http://apps.google.com">Google Apps</a></li>
+<li><a href="http://openatrium.com/">Open Atrium</a></li>
+<li><a href="http://www.bluedropawards.org/">Blue Drop Awards</a></li>
+<li><a href="http://jekyllrb.com/">jekyll</a></li>
+<li><a href="http://coordino.com/">Coordino</a></li>
+<li><a href="https://www.yammer.com/">Yammer</a></li>
+<li><a href="https://plus.google.com/">Google+</a></li>
+</ul>
+
+
+<h2>Show hosts</h2>
+
+<ul>
+<li>James Armes: <a href="http://drupal.org/user/284457">BassistJimmyJam</a> / <a href="https://twitter.com/jamesiarmes">@jamesiarmes</a></li>
+<li>Allan Chappell: <a href="http://drupal.org/user/368854">generalredneck</a> / <a href="https://twitter.com/general_redneck">@general_redneck</a></li>
+<li>Chris Christensen: <a href="http://drupal.org/user/595250">christianchristensen</a> / <a href="https://twitter.com/imetchrischris">@imetchrischris</a></li>
+<li>David Lanier: <a href="http://drupal.org/user/89512">nadavoid</a> / <a href="https://twitter.com/nadavoid">@nadavoid</a></li>
+<li>Max Pecherskiy: <a href="http://drupal.org/user/801596">MrMaksimize</a> / <a href="https://twitter.com/mrmaksimize">@mrmaksimize</a></li>
+<li>Travis Tidwell: <a href="http://drupal.org/user/98581">travist</a> / <a href="https://twitter.com/softwaregnome">@softwaregnome</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
