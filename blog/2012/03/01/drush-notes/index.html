@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>AllPlayers.com Wins 2012 Blue Drop Award for Best Social Networking Website Built with Drupal - AllPlayers Dev Blog</title>
+  <title>Drush tips and tricks + make, dl, .info inject - AllPlayers Dev Blog</title>
   <meta name="author" content="AllPlayers">
 
   
-  <meta name="description" content="After more than a month of nominations and community voting, Irving-based AllPlayers.com has been awarded the &#8220;2012 Best Social Networking &hellip;">
+  <meta name="description" content="Did some testing with drush tonight and have some tips: http://drupal.org/project/drush project has nice pear install info:
+(note: may need to sudo) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://allplayers.github.com/blog/2012/04/19/allplayers-dot-com-wins-2012-blue-drop-award-for-best-social-networking-website-built-with-drupal">
+  <link rel="canonical" href="http://allplayers.github.com/blog/2012/03/01/drush-notes">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -80,7 +81,7 @@
   
   <header>
     
-      <h1 class="entry-title">AllPlayers.com Wins 2012 Blue Drop Award for Best Social Networking Website Built With Drupal</h1>
+      <h1 class="entry-title">Drush Tips and Tricks + Make, Dl, .info Inject</h1>
     
     
       <p class="meta">
@@ -96,28 +97,93 @@
   
 
 
-<time datetime="2012-04-19T10:40:00-05:00" pubdate data-updated="true">Apr 19<span>th</span>, 2012</time>
+<time datetime="2012-03-01T20:00:00-06:00" pubdate data-updated="true">Mar 1<span>st</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>After more than a month of nominations and community voting, Irving-based <a href="https://www.allplayers.com">AllPlayers.com</a> has been awarded the &#8220;2012 Best Social Networking Website Built with Drupal&#8221; by the <a href="http://bluedropawards.com">Blue Drop Awards</a> in its inaugural season. The prestigious award was given to <a href="https://www.allplayers.com">AllPlayers.com</a> for their group management and administrative website.</p>
+<div class="entry-content"><p><article class="markdown-body"><p>Did some testing with drush tonight and have some tips:</p></p>
 
-<p>“At AllPlayers.com, we are thrilled to receive the award for Best Social Networking Website Built with Drupal from the Drupal Community,” said Jason McKay, CEO of <a href="https://www.allplayers.com">AllPlayers.com</a>. “The award has added significance as Drupal is responsible for some of the most innovative websites online today; the Blue Drop Awards did a fantastic job of conveying that through the nomination process.”</p>
+<p><a href="http://drupal.org/project/drush">http://drupal.org/project/drush</a> project has nice pear install info:
+(note: may need to sudo)</p>
 
-<p>Some of the key elements that made <a href="https://www.allplayers.com">AllPlayers.com</a> stand out are the site developers. <a href="https://www.allplayers.com">AllPlayers.com</a> empowers some of the best Drupal developers in the country and promotes creativity in development and design. Pushing the limits of the Drupal framework and taking the development community beyond the established comfort zone has increased the <a href="https://www.allplayers.com">AllPlayers.com</a> features and usability while at the same time contributing back significant improvements and enhancements to multiple commonly used components.</p>
 
-<p>“There were so many quality entries to the Blue Drop Awards for the Best Social Networking Website Built with Drupal category this year,” said Michael Caccavano, president, Phase2 Technology. “We salute <a href="https://www.allplayers.com">AllPlayers.com</a> for winning among such strong competition.”</p>
 
-<p>Representing more than 630,000 contributors and developers, Drupal is the largest, most active open-source technology community in the world. The <a href="http://bluedropawards.com">Blue Drop Awards</a> were created to promote Drupal to the greater technology community and to recognize innovative, next-generation websites and the companies that built them. With thousands of sites leveraging Drupal, the new awards program was designed to be the first democratic, voter-driven recognition program for Drupal members.</p>
 
-<p>The inaugural Blue Drop Awards were sponsored by veteran Drupal community members, including Volacci, Phase2 Technology, Lingotek, Standing Cloud, Build a Module, Synaptic Blue, ImageX Media, Achieve Internet, Blink Reaction, Gorton Studios and Mediacurrent.</p>
+<pre><code>pear channel-discover pear.drush.org
+pear install drush/drush-5.0.0 # note: there may be some instability, but seems ok
+</code></pre>
 
-<p>To see the winning projects and check out the other nominated websites please visit <a href="http://bluedropawards.com">Blue Drop Awards</a></p>
 
-<p>For more information on how to volunteer or participate as a sponsor next year, please contact Ben Finklea, CEO, Volacci at (512) 632-4222 or Ben(at)Volacci(dot)com</p>
+
+
+<p>(note: drush-5.0.0 has the &#8211;gitinfofile which injects version into .info)</p>
+
+
+<!-- more -->
+
+
+
+
+<p><a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/README.txt#l79">Drush bash completion</a> is probably a handy tool for sbox CLI: <a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/drush.complete.sh">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/drush.complete.sh</a>
+namely: sourcing the bash completion script e.g.: <code>. /usr/share/php/drush/drush.complete.sh</code>
+(this provides tab completion for drush commands)</p>
+
+
+
+
+<p>Drush5 provides an injection to the .info file; an example use of this would be:
+<code>drush dl --package-handler=git_drupalorg --gitinfofile uuid</code>
+(note: the &#8211;gitinfofile parameter)</p>
+
+
+
+
+<p>(running <strong>.info inject</strong> by default)
+Using the drushrc.php (a file to specify specific specific drush options in a config file&#8230;) we can ensure that <code>gitinfofile</code> is enabled by default:
+<code>$command_specific['pm-download'] = array('gitinfofile' =&gt; TRUE);</code>
+(note: unfortunately drush_make doesn&#8217;t respect the <code>drush dl</code> paradigm &#8230; drush 5 this will be the preferred method)
+(note: to get drush to continue reading my rc file I had to do: <code>drush -c ~/.drush/drushrc.php make example.make www</code>)
+(tip: to see what is happening with the actual drush commands use debug/verbose: <code>drush --debug --verbose -c ~/.drush/drushrc.php make example.make www</code>)</p>
+
+
+
+
+<p>We can also have specific <strong>drushrc.php</strong> settings <em>per repo</em> to be fancy:
+<a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l8">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l8</a>
+and/or
+<a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l332">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l332</a>
+(note: I believe this to be a nice way - and the drush recommended way - to organize our alias&#8217; and other drush specific settings.)
+(note: to accomplish this I believe minimal setup through Puppet could get things in place - this would be for deployed env. - everything else would have a Readme)</p>
+
+
+
+
+<p>&lt;(soon) deprecated&gt;</p>
+
+
+
+
+<p>For <strong>drush_make .info inject</strong>&#8230; (or running drush 4.5)</p>
+
+
+
+
+<pre><code>cd ~/.drush/drush_make/
+# http://drupal.org/node/1302820
+wget http://drupal.org/files/drush_make_inject_info.patch
+patch -p1 &lt; drush_make_inject_info.patch
+</code></pre>
+
+
+
+
+<p>&lt;/deprecated&gt;</p>
+
+
+<p></article></p>
 </div>
 
 
@@ -140,12 +206,12 @@
   
 
 
-<time datetime="2012-04-19T10:40:00-05:00" pubdate data-updated="true">Apr 19<span>th</span>, 2012</time>
+<time datetime="2012-03-01T20:00:00-06:00" pubdate data-updated="true">Mar 1<span>st</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/general/'>General</a>
+    <a class='category' href='/blog/categories/drupal/'>Drupal</a>
   
 </span>
 
@@ -154,7 +220,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://allplayers.github.com/blog/2012/04/19/allplayers-dot-com-wins-2012-blue-drop-award-for-best-social-networking-website-built-with-drupal/" data-via="allplayers" data-counturl="http://allplayers.github.com/blog/2012/04/19/allplayers-dot-com-wins-2012-blue-drop-award-for-best-social-networking-website-built-with-drupal/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://allplayers.github.com/blog/2012/03/01/drush-notes/" data-via="allplayers" data-counturl="http://allplayers.github.com/blog/2012/03/01/drush-notes/" >Tweet</a>
   
   
   
@@ -163,10 +229,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/" title="Previous Post: AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up">&laquo; AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/04/25/allplayers-kick-awesome-podcast-number-3-00110011/" title="Next Post: AllPlayers Kick-Awesome Podcast #3 - 00110011">AllPlayers Kick-Awesome Podcast #3 - 00110011 &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan/" title="Next Post: AllPlayers Kick-Awesome Podcast #1 - Planning To Plan">AllPlayers Kick-Awesome Podcast #1 - Planning To Plan &raquo;</a>
       
     </p>
   </footer>
