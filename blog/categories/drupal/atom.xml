@@ -4,7 +4,7 @@
   <title><![CDATA[Drupal | AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/blog/categories/drupal/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-04-24T16:49:07-05:00</updated>
+  <updated>2012-04-25T08:50:48-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -22,7 +22,7 @@
 
 <p>Get it while it's hot!</p>
 
-<p><a href="https://s3.amazonaws.com/allplayers/april-2+2012.mp3">AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up</a></p>
+<p><a href="https://s3.amazonaws.com/allplayers/april-2+2012.mp3" title="AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up" rel="enclosure">AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up</a></p>
 
 <h2>Links from the show</h2>
 
@@ -68,7 +68,7 @@
 
 <p>Get it while it's hot!</p>
 
-<p><a href="https://s3.amazonaws.com/allplayers/march-12.mp3">AllPlayers Kick Awesome Podcast #1 - Planning to Plan</a></p>
+<p><a href="https://s3.amazonaws.com/allplayers/march-12.mp3" title = "AllPlayers Kick Awesome Podcast #1 - Planning to Plan" rel="enclosure">AllPlayers Kick Awesome Podcast #1 - Planning to Plan</a></p>
 
 <h2>Links from the show</h2>
 
