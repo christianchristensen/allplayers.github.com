@@ -4,7 +4,7 @@
   <title><![CDATA[AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-04-25T10:50:32-05:00</updated>
+  <updated>2012-04-25T13:28:32-04:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -14,9 +14,71 @@
 
   
   <entry>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #3 - 00110011]]></title>
+    <link href="http://allplayers.github.com/blog/2012/04/25/allplayers-kick-awesome-podcast-number-3-00110011/"/>
+    <updated>2012-04-25T12:55:00-04:00</updated>
+    <id>http://allplayers.github.com/blog/2012/04/25/allplayers-kick-awesome-podcast-number-3-00110011</id>
+    <content type="html"><![CDATA[<p>Join Chris, Max, James and Allan from AllPlayers as they discuss Drupal distributions, small applications, how beer makes men smarter and more!</p>
+
+<p><a href="https://s3.amazonaws.com/allplayers/april_23_2012.mp3" title="AllPlayers Kick-Awesome Podcast #3 - 00110011" rel="enclosure">AllPlayers Kick-Awesome Podcast #3 - 0011</a></p>
+
+<h2>Links from the show</h2>
+
+<ul>
+<li><a href="http://www.prweb.com/releases/2012/4/prweb9413528.htm">AllPlayers.com Social Site of the Year!!</a></li>
+<li><a href="http://drupal.org/project/distributions">Drupal Distributions</a>:
+
+<ul>
+<li><a href="http://drupal.org/project/commerce_kickstart">Commerce Kickstart</a></li>
+<li><a href="http://drupal.org/project/panopoly">Panopoly</a></li>
+<li><a href="http://drupal.org/project/phoenix">Phoenix</a></li>
+</ul>
+</li>
+<li><a href="http://groups.drupal.org/node/226459">CMI Funding Proposal</a></li>
+<li><a href="http://articles.nydailynews.com/2012-04-11/news/31326760_1_brain-teasers-researchers-problem">Beer makes men smarter</a></li>
+<li><a href="http://octopress.org/">Octopress</a></li>
+<li><a href="http://vimeo.com/40677604">AllPlayers.com Eat-N-Geek - JavaScript Essentials by Travis Tidwell</a></li>
+<li><a href="http://imetchrischris.com/blog/2011/10/30/drupal-restful-future/">Drupal’s RESTful Future by Chris Christensen</a></li>
+<li>Small Applications:
+
+<ul>
+<li><a href="http://genghisapp.com/">Genghis</a></li>
+<li><a href="http://getsculpin.com/">Sculpin</a></li>
+<li><a href="http://10k.aneventapart.com/">10K Apart</a></li>
+</ul>
+</li>
+<li><a href="http://develop.allplayers.com/oauth.html">Develop AllPlayers.com - OAuth</a></li>
+<li><a href="http://code.google.com/p/webfinger/">webfinger</a></li>
+<li><a href="https://developers.facebook.com/html5/blog/post/2012/02/27/announcing-ringmark--a-mobile-browser-test-suite/">Ringmark</a></li>
+</ul>
+
+
+<h2>Picks of the week</h2>
+
+<ul>
+<li>Allan: <a href="http://www.jefflinwood.com/2012/01/drupal-phonegap-podcast-with-jeff-at-modules-unraveled/">Drupal + PhoneGap Podcast with Jeff Linwood</a></li>
+<li>Chris: <a href="http://fabien.potencier.org/article/50/create-your-own-framework-on-top-of-the-symfony2-components-part-1">Create your own framework on top of the Symfony2 Components</a></li>
+<li>James: <a href="http://drupal.org/drupalgive">/drupalgive Initiative</a> / <a href="http://drupal-association.ideascale.com/">Drupal Association on IdeaScale</a></li>
+<li>Max: <a href="https://github.com/adamdbradley/foresight.js">foresight.js</a></li>
+</ul>
+
+
+<h2>Show hosts</h2>
+
+<ul>
+<li>James Armes: <a href="http://drupal.org/user/284457">BassistJimmyJam</a> / <a href="https://twitter.com/jamesiarmes">@jamesiarmes</a></li>
+<li>Allan Chappell: <a href="http://drupal.org/user/368854">generalredneck</a> / <a href="https://twitter.com/general_redneck">@general_redneck</a></li>
+<li>Chris Christensen: <a href="http://drupal.org/user/595250">christianchristensen</a> / <a href="https://twitter.com/imetchrischris">@imetchrischris</a></li>
+<li>Max Pecherskiy: <a href="http://drupal.org/user/801596">MrMaksimize</a> / <a href="https://twitter.com/mrmaksimize">@mrmaksimize</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[AllPlayers.com Wins 2012 Blue Drop Award for Best Social Networking Website Built with Drupal]]></title>
     <link href="http://allplayers.github.com/blog/2012/04/19/allplayers-dot-com-wins-2012-blue-drop-award-for-best-social-networking-website-built-with-drupal/"/>
-    <updated>2012-04-19T10:40:00-05:00</updated>
+    <updated>2012-04-19T10:40:00-04:00</updated>
     <id>http://allplayers.github.com/blog/2012/04/19/allplayers-dot-com-wins-2012-blue-drop-award-for-best-social-networking-website-built-with-drupal</id>
     <content type="html"><![CDATA[<p>After more than a month of nominations and community voting, Irving-based <a href="https://www.allplayers.com">AllPlayers.com</a> has been awarded the &#8220;2012 Best Social Networking Website Built with Drupal&#8221; by the <a href="http://bluedropawards.com">Blue Drop Awards</a> in its inaugural season. The prestigious award was given to <a href="https://www.allplayers.com">AllPlayers.com</a> for their group management and administrative website.</p>
 
@@ -39,7 +101,7 @@
   <entry>
     <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up]]></title>
     <link href="http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/"/>
-    <updated>2012-04-12T15:31:00-05:00</updated>
+    <updated>2012-04-12T15:31:00-04:00</updated>
     <id>http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up</id>
     <content type="html"><![CDATA[<p>Join Chris, Max, David, James and Allan from AllPlayers as they talk about the latest drupal news, how we planned to plan, and much more!</p>
 
@@ -85,7 +147,7 @@
   <entry>
     <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #1 - Planning To Plan]]></title>
     <link href="http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan/"/>
-    <updated>2012-03-21T15:25:00-05:00</updated>
+    <updated>2012-03-21T15:25:00-04:00</updated>
     <id>http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan</id>
     <content type="html"><![CDATA[<p>So we finally did it! We started a podcast. Join Chris, Max, Travis, David, James and Allan from AllPlayers as they talk about the latest drupal news, how we planned to plan, and much more!</p>
 
