@@ -32,7 +32,13 @@
         <loc>
             http://allplayers.github.com/blog/2012/06/07/allplayers-podcast-4-google-drive-hangout/
         </loc>
-        <lastmod>2012-07-21T09:45:48-05:00</lastmod>
+        <lastmod>2012-07-22T19:23:20-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://allplayers.github.com/blog/2012/07/12/information-security-breach-wikileaks-scandal/
+        </loc>
+        <lastmod>2012-07-22T19:38:13-05:00</lastmod>
     </url>
     <url>
         <loc>http://allplayers.github.com/allplayers-presentations/</loc>
@@ -40,10 +46,10 @@
     </url>
     <url>
         <loc>http://allplayers.github.com/blog/archives/</loc>
-        <lastmod>2012-07-21T09:45:48-05:00</lastmod>
+        <lastmod>2012-07-22T19:38:13-05:00</lastmod>
     </url>
     <url>
         <loc>http://allplayers.github.com/</loc>
-        <lastmod>2012-07-21T09:45:48-05:00</lastmod>
+        <lastmod>2012-07-22T19:38:13-05:00</lastmod>
     </url>
 </urlset>

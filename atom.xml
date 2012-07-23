@@ -4,7 +4,7 @@
   <title><![CDATA[AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-07-21T09:46:24-05:00</updated>
+  <updated>2012-07-22T19:39:34-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Information Security Breach - Wikileaks Scandal]]></title>
+    <link href="http://allplayers.github.com/blog/2012/07/12/information-security-breach-wikileaks-scandal/"/>
+    <updated>2012-07-12T19:02:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/07/12/information-security-breach-wikileaks-scandal</id>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="http://www.youtube.com/embed/YMK1GXnQFb0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>Melissa McKay, wife of the CEO of AllPlayers.com, Jason McKay, indulges us with her hobby of International Security. Her talk is specifically about the content that was released on the Wikileaks website and a brief overview of those involved as well as some known specifics about Government Security Protocol when it comes to technology.</p>
+
+<p>I&#8217;d hate to spoil the video with a long drawn out explanation of what she went over. Definitely worth watching!</p>
+
+<h3>Links</h3>
+
+<ul>
+<li><a href="http://firedoglake.com/merged-manning-lamo-chat-logs/">Merged Manning-Lamo Chat Logs</a> - I&#8217;d pay particular attention to May 25</li>
+<li><a href="http://www.pbs.org/wgbh/pages/frontline/wikileaks/manning-facebook-page/">Manning&#8217;s Facebook Page</a></li>
+<li><a href="http://www.pbs.org/wgbh/pages/frontline/wikileaks/">Full Frontline Video</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AllPlayers Podcast 4 - Google Drive - Hangout, Booth Babes, and Code Standards]]></title>
