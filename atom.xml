@@ -4,7 +4,7 @@
   <title><![CDATA[AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-07-22T18:42:11-05:00</updated>
+  <updated>2012-07-22T19:11:18-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -14,7 +14,16 @@
 
   
   <entry>
-    <title type="html"><![CDATA[AllPlayers Podcast 4 - Google Drive - Hangout, Booth Babes, and Code Standards]]></title>
+    <title type="html"><![CDATA[Information Security Breach - Wikileaks Scandal]]></title>
+    <link href="http://allplayers.github.com/blog/2012/07/12/information-security-breach-wikileaks-scandal/"/>
+    <updated>2012-07-12T19:02:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/07/12/information-security-breach-wikileaks-scandal</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast 4 - Google Drive - Hangout, Booth Babes, and Code Standards]]></title>
     <link href="http://allplayers.github.com/blog/2012/06/07/allplayers-podcast-4-google-drive-hangout/"/>
     <updated>2012-06-07T08:57:00-05:00</updated>
     <id>http://allplayers.github.com/blog/2012/06/07/allplayers-podcast-4-google-drive-hangout</id>
