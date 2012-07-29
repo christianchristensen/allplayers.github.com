@@ -4,7 +4,7 @@
   <title><![CDATA[Podcast | AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/blog/categories/podcast/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-07-24T13:32:01-05:00</updated>
+  <updated>2012-07-29T11:29:35-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast 5 - ecommerce marketplaces]]></title>
+    <link href="http://allplayers.github.com/blog/2012/07/24/allplayers-kick-awesome-podcast-5-ecommerce-marketplaces/"/>
+    <updated>2012-07-24T13:00:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/07/24/allplayers-kick-awesome-podcast-5-ecommerce-marketplaces</id>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="http://www.youtube.com/embed/sl652VrO6S0" frameborder="0" allowfullscreen></iframe>
+
+
+<hr />
+
+<p>During this podcast our resident ecommerce lead: <a href="https://twitter.com/glennpratt">Glenn Pratt</a> discussed the "ins and outs" of <a href="http://drupal.org/project/commerce">Drupal commerce</a>, with a particular focus on an ecommerce marketplace.</p>
+
+<p>There's a bit of history with the concept of hosting "marketplaces", Drupal has a history with the Ubercart marketplace module. However, in a more general  sense the idea is such that a "bounded" group of multiple vendors can sell multiple products (or even the same products). AllPlayers.com use case was such that we wanted to provide a "store front" ability to host multiple products per group. We felt Commerce was “built for us” in terms of minimal pre-conceived notions and a lot of flexibility.</p>
+
+<p>In our initial analysis of marketplace implementations, we explored several competion options, such as Magento and Commerce, but the ultimate solution to settle on Drupal Commerce was driven by the flexibility and our domain knowledge in Drupal.</p>
+
+<p>In Drupal the best-practice for "groups" is <a href="http://drupal.org/project/og">OG</a> and that is probably the most novel area of AllPlayers.com's implementation. There was quite a bit of work to associate OG with the cart and also maintain the integrity of all underlying accounting. We were able to achieve this with minimal "custom module" implementation; you can track the "path to marketplace" through the <a href="http://drupal.org/node/990204">Drupal issue queue</a>.</p>
+
+<h2>Picks:</h2>
+
+<p>(note: PSR-1/2 accepted)</p>
+
+<ul>
+<li>Glenn: <a href="http://astyle.sourceforge.net/">Artistic Style 2.02</a></li>
+<li>Allan: <a href="http://drupalladder.org">Drupal Ladder</a> - Get 1% of the community contributing to core</li>
+<li>Maksim: <a href="http://dochub.io/">dochub.io</a></li>
+<li>David: <a href="http://phptherightway.com">PHP "the right way": community curated PHP best practices</a></li>
+<li>Chris: <a href="http://kcpug.org/posts/2012/july-21-2012-todays-thriving-php-ecosystem">KC PHP User's Group: "PHP's Thriving Ecosystem"</a></li>
+<li>James: <a href="http://commerceguys.com/webinars/webinar-drupal-8-plug-it-and-go">Commerce Guys D8 plugins webinar</a></li>
+</ul>
+
+
+<h3>Callouts for upcoming events:</h3>
+
+<ul>
+<li><a href="http://cposc.org">Central Pennsylvania Open Source Conference</a></li>
+<li><a href="http://dallasdrupal.org">Dallas Drupal Days</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast 4 - Google Drive - Hangout, Booth Babes, and Code Standards]]></title>
@@ -144,7 +186,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up]]></title>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Denver Wrap-Up]]></title>
     <link href="http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/"/>
     <updated>2012-04-12T15:31:00-05:00</updated>
     <id>http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up</id>

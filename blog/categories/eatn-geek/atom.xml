@@ -4,7 +4,7 @@
   <title><![CDATA[EatN'Geek | AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/blog/categories/eatn-geek/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-07-24T13:32:01-05:00</updated>
+  <updated>2012-07-29T11:29:35-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[UNIX wizardry]]></title>
+    <link href="http://allplayers.github.com/blog/2012/07/26/unix-wizardry/"/>
+    <updated>2012-07-26T13:00:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/07/26/unix-wizardry</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/46470453" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p> <p><a href="http://vimeo.com/46470453">Eat N Geek 2012-07-26</a></p>
+
+<hr />
+
+<p>This weeks Eat 'N Geek featured <a href="http://twitter.com/bcmiller">Bill Miller</a> - CTO of AllPlayers.com - talking about UNIX "wizardry". Some fun facts: UNIX is a fun-acronym on, during the time, Multics system. The birth of UNIX was shepharded by Ken Thompson and Dennis Ritchie on a PDP-7 to support building their "space" game.</p>
+
+<p>The adoption of UNIX, although initially developed at AT&amp;T Bell research labs, was greatly helped by distribution (and adoption) by universities. This is also the reason behind different distributions, such as Berkely's BSD (which also plays a heavy role in modern day Mac OSX). From the various distributions, several best practices emerged and the IEEE Posix standard came from best of class of BSD and System V.</p>
+
+<p>Learning a few (or <em>relatively</em> few) commands and "building blocks"; the UNIX programs and their interactions provide extremely powerful toolset that is capable of solving many (if not all) problems (and most tools have proven the test of time as well).</p>
+
+<p>Modern day open-source landscape roots itself in the culture of UNIX; Richard Stallman can be particlarly noted for his founding of the Free Software Foundation and perpetuation the culture of the availability and sharing of source code (and the vehement breakdown of any proprietary software).</p>
+
+<p>The <a href="https://docs.google.com/a/allplayers.com/presentation/d/1iqtGnBn0StccUaxVbL8FQNwGp-upDt8U1lcauY1oogo/present#slide=id.g16072346_0_174">attached slides</a> and <a href="http://vimeo.com/46470453">video</a> have a myriad of quick program usage and interactions.</p>
+
+<script async class="speakerdeck-embed" data-id="5015605bb52c6f00020019ca" data-ratio="1.3333333333333333" src="http://allplayers.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Dive Into Baseball]]></title>
