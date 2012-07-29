@@ -4,7 +4,7 @@
   <title><![CDATA[AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-07-24T13:32:01-05:00</updated>
+  <updated>2012-07-29T11:29:35-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -12,6 +12,77 @@
   </author>
   <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[UNIX wizardry]]></title>
+    <link href="http://allplayers.github.com/blog/2012/07/26/unix-wizardry/"/>
+    <updated>2012-07-26T13:00:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/07/26/unix-wizardry</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/46470453" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p> <p><a href="http://vimeo.com/46470453">Eat N Geek 2012-07-26</a></p>
+
+<hr />
+
+<p>This weeks Eat &#8216;N Geek featured <a href="http://twitter.com/bcmiller">Bill Miller</a> - CTO of AllPlayers.com - talking about UNIX &#8220;wizardry&#8221;. Some fun facts: UNIX is a fun-acronym on, during the time, Multics system. The birth of UNIX was shepharded by Ken Thompson and Dennis Ritchie on a PDP-7 to support building their &#8220;space&#8221; game.</p>
+
+<p>The adoption of UNIX, although initially developed at AT&amp;T Bell research labs, was greatly helped by distribution (and adoption) by universities. This is also the reason behind different distributions, such as Berkely&#8217;s BSD (which also plays a heavy role in modern day Mac OSX). From the various distributions, several best practices emerged and the IEEE Posix standard came from best of class of BSD and System V.</p>
+
+<p>Learning a few (or <em>relatively</em> few) commands and &#8220;building blocks&#8221;; the UNIX programs and their interactions provide extremely powerful toolset that is capable of solving many (if not all) problems (and most tools have proven the test of time as well).</p>
+
+<p>Modern day open-source landscape roots itself in the culture of UNIX; Richard Stallman can be particlarly noted for his founding of the Free Software Foundation and perpetuation the culture of the availability and sharing of source code (and the vehement breakdown of any proprietary software).</p>
+
+<p>The <a href="https://docs.google.com/a/allplayers.com/presentation/d/1iqtGnBn0StccUaxVbL8FQNwGp-upDt8U1lcauY1oogo/present#slide=id.g16072346_0_174">attached slides</a> and <a href="http://vimeo.com/46470453">video</a> have a myriad of quick program usage and interactions.</p>
+
+<script async class="speakerdeck-embed" data-id="5015605bb52c6f00020019ca" data-ratio="1.3333333333333333" src="http://allplayers.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast 5 - ecommerce marketplaces]]></title>
+    <link href="http://allplayers.github.com/blog/2012/07/24/allplayers-kick-awesome-podcast-5-ecommerce-marketplaces/"/>
+    <updated>2012-07-24T13:00:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/07/24/allplayers-kick-awesome-podcast-5-ecommerce-marketplaces</id>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="http://www.youtube.com/embed/sl652VrO6S0" frameborder="0" allowfullscreen></iframe>
+
+
+<hr />
+
+<p>During this podcast our resident ecommerce lead: <a href="https://twitter.com/glennpratt">Glenn Pratt</a> discussed the &#8220;ins and outs&#8221; of <a href="http://drupal.org/project/commerce">Drupal commerce</a>, with a particular focus on an ecommerce marketplace.</p>
+
+<p>There&#8217;s a bit of history with the concept of hosting &#8220;marketplaces&#8221;, Drupal has a history with the Ubercart marketplace module. However, in a more general  sense the idea is such that a &#8220;bounded&#8221; group of multiple vendors can sell multiple products (or even the same products). AllPlayers.com use case was such that we wanted to provide a &#8220;store front&#8221; ability to host multiple products per group. We felt Commerce was “built for us” in terms of minimal pre-conceived notions and a lot of flexibility.</p>
+
+<p>In our initial analysis of marketplace implementations, we explored several competion options, such as Magento and Commerce, but the ultimate solution to settle on Drupal Commerce was driven by the flexibility and our domain knowledge in Drupal.</p>
+
+<p>In Drupal the best-practice for &#8220;groups&#8221; is <a href="http://drupal.org/project/og">OG</a> and that is probably the most novel area of AllPlayers.com&#8217;s implementation. There was quite a bit of work to associate OG with the cart and also maintain the integrity of all underlying accounting. We were able to achieve this with minimal &#8220;custom module&#8221; implementation; you can track the &#8220;path to marketplace&#8221; through the <a href="http://drupal.org/node/990204">Drupal issue queue</a>.</p>
+
+<h2>Picks:</h2>
+
+<p>(note: PSR-1/2 accepted)</p>
+
+<ul>
+<li>Glenn: <a href="http://astyle.sourceforge.net/">Artistic Style 2.02</a></li>
+<li>Allan: <a href="http://drupalladder.org">Drupal Ladder</a> - Get 1% of the community contributing to core</li>
+<li>Maksim: <a href="http://dochub.io/">dochub.io</a></li>
+<li>David: <a href="http://phptherightway.com">PHP &#8220;the right way&#8221;: community curated PHP best practices</a></li>
+<li>Chris: <a href="http://kcpug.org/posts/2012/july-21-2012-todays-thriving-php-ecosystem">KC PHP User&#8217;s Group: &#8220;PHP&#8217;s Thriving Ecosystem&#8221;</a></li>
+<li>James: <a href="http://commerceguys.com/webinars/webinar-drupal-8-plug-it-and-go">Commerce Guys D8 plugins webinar</a></li>
+</ul>
+
+
+<h3>Callouts for upcoming events:</h3>
+
+<ul>
+<li><a href="http://cposc.org">Central Pennsylvania Open Source Conference</a></li>
+<li><a href="http://dallasdrupal.org">Dallas Drupal Days</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Dive Into Baseball]]></title>
@@ -237,7 +308,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up]]></title>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Denver Wrap-Up]]></title>
     <link href="http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/"/>
     <updated>2012-04-12T15:31:00-05:00</updated>
     <id>http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up</id>

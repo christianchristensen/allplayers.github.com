@@ -4,7 +4,7 @@
   <title><![CDATA[Drupal | AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/blog/categories/drupal/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-07-24T13:32:01-05:00</updated>
+  <updated>2012-07-29T11:29:35-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast 5 - ecommerce marketplaces]]></title>
+    <link href="http://allplayers.github.com/blog/2012/07/24/allplayers-kick-awesome-podcast-5-ecommerce-marketplaces/"/>
+    <updated>2012-07-24T13:00:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/07/24/allplayers-kick-awesome-podcast-5-ecommerce-marketplaces</id>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="http://www.youtube.com/embed/sl652VrO6S0" frameborder="0" allowfullscreen></iframe>
+
+
+<hr />
+
+<p>During this podcast our resident ecommerce lead: <a href="https://twitter.com/glennpratt">Glenn Pratt</a> discussed the "ins and outs" of <a href="http://drupal.org/project/commerce">Drupal commerce</a>, with a particular focus on an ecommerce marketplace.</p>
+
+<p>There's a bit of history with the concept of hosting "marketplaces", Drupal has a history with the Ubercart marketplace module. However, in a more general  sense the idea is such that a "bounded" group of multiple vendors can sell multiple products (or even the same products). AllPlayers.com use case was such that we wanted to provide a "store front" ability to host multiple products per group. We felt Commerce was “built for us” in terms of minimal pre-conceived notions and a lot of flexibility.</p>
+
+<p>In our initial analysis of marketplace implementations, we explored several competion options, such as Magento and Commerce, but the ultimate solution to settle on Drupal Commerce was driven by the flexibility and our domain knowledge in Drupal.</p>
+
+<p>In Drupal the best-practice for "groups" is <a href="http://drupal.org/project/og">OG</a> and that is probably the most novel area of AllPlayers.com's implementation. There was quite a bit of work to associate OG with the cart and also maintain the integrity of all underlying accounting. We were able to achieve this with minimal "custom module" implementation; you can track the "path to marketplace" through the <a href="http://drupal.org/node/990204">Drupal issue queue</a>.</p>
+
+<h2>Picks:</h2>
+
+<p>(note: PSR-1/2 accepted)</p>
+
+<ul>
+<li>Glenn: <a href="http://astyle.sourceforge.net/">Artistic Style 2.02</a></li>
+<li>Allan: <a href="http://drupalladder.org">Drupal Ladder</a> - Get 1% of the community contributing to core</li>
+<li>Maksim: <a href="http://dochub.io/">dochub.io</a></li>
+<li>David: <a href="http://phptherightway.com">PHP "the right way": community curated PHP best practices</a></li>
+<li>Chris: <a href="http://kcpug.org/posts/2012/july-21-2012-todays-thriving-php-ecosystem">KC PHP User's Group: "PHP's Thriving Ecosystem"</a></li>
+<li>James: <a href="http://commerceguys.com/webinars/webinar-drupal-8-plug-it-and-go">Commerce Guys D8 plugins webinar</a></li>
+</ul>
+
+
+<h3>Callouts for upcoming events:</h3>
+
+<ul>
+<li><a href="http://cposc.org">Central Pennsylvania Open Source Conference</a></li>
+<li><a href="http://dallasdrupal.org">Dallas Drupal Days</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast 4 - Google Drive - Hangout, Booth Babes, and Code Standards]]></title>
@@ -144,7 +186,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Devner Wrap-Up]]></title>
+    <title type="html"><![CDATA[AllPlayers Kick-Awesome Podcast #2 - DrupalCon Denver Wrap-Up]]></title>
     <link href="http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/"/>
     <updated>2012-04-12T15:31:00-05:00</updated>
     <id>http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up</id>
@@ -224,94 +266,6 @@
 <li>Travis Tidwell: <a href="http://drupal.org/user/98581">travist</a> / <a href="https://twitter.com/softwaregnome">@softwaregnome</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Drush tips and tricks + make, dl, .info inject]]></title>
-    <link href="http://allplayers.github.com/blog/2012/03/01/drush-notes/"/>
-    <updated>2012-03-01T20:00:00-06:00</updated>
-    <id>http://allplayers.github.com/blog/2012/03/01/drush-notes</id>
-    <content type="html"><![CDATA[<p><article class="markdown-body"><p>Did some testing with drush tonight and have some tips:</p></p>
-
-<p><a href="http://drupal.org/project/drush">http://drupal.org/project/drush</a> project has nice pear install info:
-(note: may need to sudo)</p>
-
-
-
-
-<pre><code>pear channel-discover pear.drush.org
-pear install drush/drush-5.0.0 # note: there may be some instability, but seems ok
-</code></pre>
-
-
-
-
-<p>(note: drush-5.0.0 has the --gitinfofile which injects version into .info)</p>
-
-
-<!-- more -->
-
-
-
-
-<p><a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/README.txt#l79">Drush bash completion</a> is probably a handy tool for sbox CLI: <a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/drush.complete.sh">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/drush.complete.sh</a>
-namely: sourcing the bash completion script e.g.: <code>. /usr/share/php/drush/drush.complete.sh</code>
-(this provides tab completion for drush commands)</p>
-
-
-
-
-<p>Drush5 provides an injection to the .info file; an example use of this would be:
-<code>drush dl --package-handler=git_drupalorg --gitinfofile uuid</code>
-(note: the --gitinfofile parameter)</p>
-
-
-
-
-<p>(running <strong>.info inject</strong> by default)
-Using the drushrc.php (a file to specify specific specific drush options in a config file...) we can ensure that <code>gitinfofile</code> is enabled by default:
-<code>$command_specific['pm-download'] = array('gitinfofile' =&gt; TRUE);</code>
-(note: unfortunately drush_make doesn't respect the <code>drush dl</code> paradigm ... drush 5 this will be the preferred method)
-(note: to get drush to continue reading my rc file I had to do: <code>drush -c ~/.drush/drushrc.php make example.make www</code>)
-(tip: to see what is happening with the actual drush commands use debug/verbose: <code>drush --debug --verbose -c ~/.drush/drushrc.php make example.make www</code>)</p>
-
-
-
-
-<p>We can also have specific <strong>drushrc.php</strong> settings <em>per repo</em> to be fancy:
-<a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l8">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l8</a>
-and/or
-<a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l332">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l332</a>
-(note: I believe this to be a nice way - and the drush recommended way - to organize our alias' and other drush specific settings.)
-(note: to accomplish this I believe minimal setup through Puppet could get things in place - this would be for deployed env. - everything else would have a Readme)</p>
-
-
-
-
-<p>&lt;(soon) deprecated&gt;</p>
-
-
-
-
-<p>For <strong>drush_make .info inject</strong>... (or running drush 4.5)</p>
-
-
-
-
-<pre><code>cd ~/.drush/drush_make/
-# http://drupal.org/node/1302820
-wget http://drupal.org/files/drush_make_inject_info.patch
-patch -p1 &lt; drush_make_inject_info.patch
-</code></pre>
-
-
-
-
-<p>&lt;/deprecated&gt;</p>
-
-
-<p></article></p>
 ]]></content>
   </entry>
   
