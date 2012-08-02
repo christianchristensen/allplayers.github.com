@@ -2,68 +2,72 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://allplayers.github.com/blog/2012/03/01/drush-notes/</loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:31:17-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://allplayers.github.com/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan/
         </loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:31:17-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://allplayers.github.com/blog/2012/04/12/allplayers-kick-awesome-podcast-number-2-drupalcon-devner-wrap-up/
         </loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:32:01-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://allplayers.github.com/blog/2012/04/19/allplayers-dot-com-wins-2012-blue-drop-award-for-best-social-networking-website-built-with-drupal/
         </loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:31:17-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://allplayers.github.com/blog/2012/04/25/allplayers-kick-awesome-podcast-number-3-00110011/
         </loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:31:17-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://allplayers.github.com/blog/2012/06/07/allplayers-podcast-4-google-drive-hangout/
         </loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:31:17-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://allplayers.github.com/blog/2012/07/12/information-security-breach-wikileaks-scandal/
         </loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:31:17-05:00</lastmod>
     </url>
     <url>
         <loc>http://allplayers.github.com/blog/2012/07/22/a-dive-into-baseball-statistics/</loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:31:17-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://allplayers.github.com/blog/2012/07/24/allplayers-kick-awesome-podcast-5-ecommerce-marketplaces/
         </loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:32:01-05:00</lastmod>
     </url>
     <url>
         <loc>http://allplayers.github.com/blog/2012/07/26/unix-wizardry/</loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:32:01-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://allplayers.github.com/blog/2012/08/02/headless-selenium/</loc>
+        <lastmod>2012-08-02T14:51:50-05:00</lastmod>
     </url>
     <url>
         <loc>http://allplayers.github.com/allplayers-presentations/</loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:31:17-05:00</lastmod>
     </url>
     <url>
         <loc>http://allplayers.github.com/blog/archives/</loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:51:50-05:00</lastmod>
     </url>
     <url>
         <loc>http://allplayers.github.com/</loc>
-        <lastmod>2012-07-29T11:25:50-05:00</lastmod>
+        <lastmod>2012-08-02T14:51:50-05:00</lastmod>
     </url>
 </urlset>
