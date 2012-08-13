@@ -4,7 +4,7 @@
   <title><![CDATA[EatN'Geek | AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/blog/categories/eatn-geek/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-08-02T14:54:29-05:00</updated>
+  <updated>2012-08-13T10:45:47-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Regular Expressions and You]]></title>
+    <link href="http://allplayers.github.com/blog/2012/08/13/regular-expressions-and-you/"/>
+    <updated>2012-08-13T10:05:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/08/13/regular-expressions-and-you</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/47263145" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p> <p><a href="http://vimeo.com/47263145">Eat N Geek 2012-08-09</a></p>
+
+<hr />
+
+<p>Bringing you and Regular Expressions closer to a first base relationship is our beloved <a href="https://twitter.com/jamesiarmes">James Armes</a>. He takes us through the easy, the hard, and the clever, with examples, explanation, and one of the shortest Eat N' Geeks we have ever sat through. This isn't to say that there isn't much clear content. It's just James is super efficient in drilling it into your brain. You will never see "Hello World" quite the same again!</p>
+
+<p>James starts it all off with showing us both simple and complex regular expressions and then leads into telling us about the different types. Turns out, there are at least 4 different types.</p>
+
+<ul>
+<li>Simple Regular Expressions</li>
+<li>POSIX Basic Regular Expressions</li>
+<li>POSIX Extended Regular Expressions</li>
+<li>Perl Regular Expressions</li>
+</ul>
+
+
+<p>James focuses mostly on Perl Regular Expressions throughout the talk and toward the end, gives a heads up on what applications and languages use what standard. He also elaborates on the basic characters that make up RegEx, advanced characters, quantifiers, and lazy quantifiers.</p>
+
+<p>Later in the presentation, James presents on more advanced concepts such as grouping, back-referencing, look-aheads, look-behinds, and conditionals. Of all this I personally only knew the first two existed!</p>
+
+<p>Did you know just about every modern computer language has it's own implementation of RegEx? James shows us some examples from Javascript, Perl, and PHP.</p>
+
+<p>Lastly, he gives us a look at a couple of tools:</p>
+
+<ul>
+<li><a href="http://aurelio.net/txt2regex/">txt2regex</a></li>
+<li><a href="http://reggyapp.com/">Reggy (mac)</a></li>
+<li><a href="http://regex.larsolavtorvik.com/">One of many web tools</a></li>
+</ul>
+
+
+<p>Check out his resources!</p>
+
+<ul>
+<li><a href="http://ex-parrot.com/~pdw/Mail-RFC822-Address.html">Complex email RegEx</a></li>
+<li><a href="http://php.net/manual/reference.pcre.pattern.modifiers.php">PHP's Extra Modifiers</a></li>
+<li><a href="http://search.cpan.org/dist/Regexp-Common/">Perl's Regexp::Common library</a></li>
+<li><a href="http://www.php.net/manual/en/book.pcre.php">PHP's Perl Compatible functions</a></li>
+<li><a href="http://xkcd.com/208/">xkcd's famous RegEx Cartoon</a></li>
+<li><a href="http://www.regular-expressions.info/">Regular-Expressions.info</a></li>
+<li><a href="https://www.evernote.com/shard/s124/sh/bd3b424e-f89e-4eb0-a388-cc2a7c44a888/9707ed01c5481a831725344dfb170fe1">James's Top Secret Presentation Notes</a> -- Shhhhh. Don't tell him I put them here.</li>
+</ul>
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13925572" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[UNIX wizardry]]></title>
