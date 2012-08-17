@@ -4,7 +4,7 @@
   <title><![CDATA[AllPlayers Dev Blog]]></title>
   <link href="http://allplayers.github.com/atom.xml" rel="self"/>
   <link href="http://allplayers.github.com/"/>
-  <updated>2012-08-13T10:45:47-05:00</updated>
+  <updated>2012-08-17T16:17:59-05:00</updated>
   <id>http://allplayers.github.com/</id>
   <author>
     <name><![CDATA[AllPlayers]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Rails and AllPlayers.com]]></title>
+    <link href="http://allplayers.github.com/blog/2012/08/17/ruby/"/>
+    <updated>2012-08-17T15:34:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/08/17/ruby</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/47687800" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p><a href="https://twitter.com/art_k5">Arturo Contreras</a> introduces us to the basics of the ruby language, and ruby on rails. He then demonstrates how ruby is being used to import data from Google Docs into AllPlayers.com via REST.</p>
+
+<p>Ruby was conceived as an object oriented language with a strong emphasis on developer happiness. Arturo shows us how to use ruby on the command line, including defining and using methods and classes.</p>
+
+<p>Some quick links to get you started:</p>
+
+<ul>
+<li><a href="http://www.ruby-lang.org/en/documentation/quickstart/">Ruby in 20 minutes</a></li>
+<li><a href="http://guides.rubyonrails.org/v2.3.8/getting_started.html">Ruby on Rails, Getting Started</a></li>
+</ul>
+
+
+<p>Other important links:</p>
+
+<ul>
+<li><a href="https://github.com/archiloque/rest-client">Ruby REST client</a></li>
+<li><a href="https://code.google.com/p/gdata-samples/source/browse/#svn/trunk/doclist/DocListManager">Google Document Manager</a></li>
+<li><a href="http://gembundler.com/">Gem Bundler</a></li>
+</ul>
+
+
+<iframe src="https://docs.google.com/a/allplayers.com/presentation/embed?id=1Bwlryc_iQhI0xiDixpgL2CWLVI-r0VfS4_SECnLK0kU&start=false&loop=false&delayms=5000" frameborder="0" width="630" height="535" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Regular Expressions and You]]></title>
