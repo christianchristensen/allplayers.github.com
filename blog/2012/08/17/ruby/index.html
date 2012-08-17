@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Drush tips and tricks + make, dl, .info inject - AllPlayers Dev Blog</title>
+  <title>Ruby Rails and AllPlayers.com - AllPlayers Dev Blog</title>
   <meta name="author" content="AllPlayers">
 
   
-  <meta name="description" content="Did some testing with drush tonight and have some tips: http://drupal.org/project/drush project has nice pear install info:
-(note: may need to sudo) &hellip;">
+  <meta name="description" content="Arturo Contreras introduces us to the basics of the ruby language, and ruby on rails. He then demonstrates how ruby is being used to import data &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://allplayers.github.com/blog/2012/03/01/drush-notes">
+  <link rel="canonical" href="http://allplayers.github.com/blog/2012/08/17/ruby">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -81,7 +80,7 @@
   
   <header>
     
-      <h1 class="entry-title">Drush Tips and Tricks + Make, Dl, .info Inject</h1>
+      <h1 class="entry-title">Ruby Rails and AllPlayers.com</h1>
     
     
       <p class="meta">
@@ -97,93 +96,39 @@
   
 
 
-<time datetime="2012-03-01T20:00:00-06:00" pubdate data-updated="true">Mar 1<span>st</span>, 2012</time>
+<time datetime="2012-08-17T15:34:00-05:00" pubdate data-updated="true">Aug 17<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><article class="markdown-body"><p>Did some testing with drush tonight and have some tips:</p></p>
-
-<p><a href="http://drupal.org/project/drush">http://drupal.org/project/drush</a> project has nice pear install info:
-(note: may need to sudo)</p>
+<div class="entry-content"><iframe src="http://player.vimeo.com/video/47687800" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
+<p><a href="https://twitter.com/art_k5">Arturo Contreras</a> introduces us to the basics of the ruby language, and ruby on rails. He then demonstrates how ruby is being used to import data from Google Docs into AllPlayers.com via REST.</p>
+
+<p>Ruby was conceived as an object oriented language with a strong emphasis on developer happiness. Arturo shows us how to use ruby on the command line, including defining and using methods and classes.</p>
+
+<p>Some quick links to get you started:</p>
+
+<ul>
+<li><a href="http://www.ruby-lang.org/en/documentation/quickstart/">Ruby in 20 minutes</a></li>
+<li><a href="http://guides.rubyonrails.org/v2.3.8/getting_started.html">Ruby on Rails, Getting Started</a></li>
+</ul>
 
 
-<pre><code>pear channel-discover pear.drush.org
-pear install drush/drush-5.0.0 # note: there may be some instability, but seems ok
-</code></pre>
+<p>Other important links:</p>
+
+<ul>
+<li><a href="https://github.com/archiloque/rest-client">Ruby REST client</a></li>
+<li><a href="https://code.google.com/p/gdata-samples/source/browse/#svn/trunk/doclist/DocListManager">Google Document Manager</a></li>
+<li><a href="http://gembundler.com/">Gem Bundler</a></li>
+</ul>
 
 
+<iframe src="https://docs.google.com/a/allplayers.com/presentation/embed?id=1Bwlryc_iQhI0xiDixpgL2CWLVI-r0VfS4_SECnLK0kU&start=false&loop=false&delayms=5000" frameborder="0" width="630" height="535" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-
-<p>(note: drush-5.0.0 has the &#8211;gitinfofile which injects version into .info)</p>
-
-
-<!-- more -->
-
-
-
-
-<p><a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/README.txt#l79">Drush bash completion</a> is probably a handy tool for sbox CLI: <a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/drush.complete.sh">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/drush.complete.sh</a>
-namely: sourcing the bash completion script e.g.: <code>. /usr/share/php/drush/drush.complete.sh</code>
-(this provides tab completion for drush commands)</p>
-
-
-
-
-<p>Drush5 provides an injection to the .info file; an example use of this would be:
-<code>drush dl --package-handler=git_drupalorg --gitinfofile uuid</code>
-(note: the &#8211;gitinfofile parameter)</p>
-
-
-
-
-<p>(running <strong>.info inject</strong> by default)
-Using the drushrc.php (a file to specify specific specific drush options in a config file&#8230;) we can ensure that <code>gitinfofile</code> is enabled by default:
-<code>$command_specific['pm-download'] = array('gitinfofile' =&gt; TRUE);</code>
-(note: unfortunately drush_make doesn&#8217;t respect the <code>drush dl</code> paradigm &#8230; drush 5 this will be the preferred method)
-(note: to get drush to continue reading my rc file I had to do: <code>drush -c ~/.drush/drushrc.php make example.make www</code>)
-(tip: to see what is happening with the actual drush commands use debug/verbose: <code>drush --debug --verbose -c ~/.drush/drushrc.php make example.make www</code>)</p>
-
-
-
-
-<p>We can also have specific <strong>drushrc.php</strong> settings <em>per repo</em> to be fancy:
-<a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l8">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l8</a>
-and/or
-<a href="http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l332">http://drupalcode.org/project/drush.git/blob/refs/heads/master:/examples/example.drushrc.php#l332</a>
-(note: I believe this to be a nice way - and the drush recommended way - to organize our alias&#8217; and other drush specific settings.)
-(note: to accomplish this I believe minimal setup through Puppet could get things in place - this would be for deployed env. - everything else would have a Readme)</p>
-
-
-
-
-<p>&lt;(soon) deprecated&gt;</p>
-
-
-
-
-<p>For <strong>drush_make .info inject</strong>&#8230; (or running drush 4.5)</p>
-
-
-
-
-<pre><code>cd ~/.drush/drush_make/
-# http://drupal.org/node/1302820
-wget http://drupal.org/files/drush_make_inject_info.patch
-patch -p1 &lt; drush_make_inject_info.patch
-</code></pre>
-
-
-
-
-<p>&lt;/deprecated&gt;</p>
-
-
-<p></article></p>
 </div>
 
 
@@ -206,12 +151,12 @@ patch -p1 &lt; drush_make_inject_info.patch
   
 
 
-<time datetime="2012-03-01T20:00:00-06:00" pubdate data-updated="true">Mar 1<span>st</span>, 2012</time>
+<time datetime="2012-08-17T15:34:00-05:00" pubdate data-updated="true">Aug 17<span>th</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/drupal/'>Drupal</a>
+    <a class='category' href='/blog/categories/eatn-geek/'>EatN'Geek</a>
   
 </span>
 
@@ -220,7 +165,7 @@ patch -p1 &lt; drush_make_inject_info.patch
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://allplayers.github.com/blog/2012/03/01/drush-notes/" data-via="allplayers" data-counturl="http://allplayers.github.com/blog/2012/03/01/drush-notes/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://allplayers.github.com/blog/2012/08/17/ruby/" data-via="allplayers" data-counturl="http://allplayers.github.com/blog/2012/08/17/ruby/" >Tweet</a>
   
   
   
@@ -229,8 +174,8 @@ patch -p1 &lt; drush_make_inject_info.patch
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2012/08/13/regular-expressions-and-you/" title="Previous Post: Regular Expressions and You">&laquo; Regular Expressions and You</a>
       
-        <a class="basic-alignment right" href="/blog/2012/03/21/allplayers-kick-awesome-podcast-number-1-planning-to-plan/" title="Next Post: AllPlayers Kick-Awesome Podcast #1 - Planning To Plan">AllPlayers Kick-Awesome Podcast #1 - Planning To Plan &raquo;</a>
       
     </p>
   </footer>
