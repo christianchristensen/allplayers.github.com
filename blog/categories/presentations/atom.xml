@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Presentations | AllPlayers Dev Blog]]></title>
+  <link href="http://allplayers.github.com/blog/categories/presentations/atom.xml" rel="self"/>
+  <link href="http://allplayers.github.com/"/>
+  <updated>2012-08-21T15:18:29-05:00</updated>
+  <id>http://allplayers.github.com/</id>
+  <author>
+    <name><![CDATA[AllPlayers]]></name>
+    
+  </author>
+  <generator uri="http://allplayers.github.com">AllPlayers Dev Blog</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Making a Case To Use Drupal]]></title>
+    <link href="http://allplayers.github.com/blog/2012/08/21/making-a-case-to-use-drupal/"/>
+    <updated>2012-08-21T14:40:00-05:00</updated>
+    <id>http://allplayers.github.com/blog/2012/08/21/making-a-case-to-use-drupal</id>
+    <content type="html"><![CDATA[<iframe width="480" height="360" src="http://www.youtube.com/embed/4YGYdzlYqDw" frameborder="0" allowfullscreen></iframe>
+
+
+<p>Our very own triumphant techy, <a href="https://twitter.com/softwaregnome">Travis Tidwell</a>, shows off AllPlayers.com for all it's glory, bells, and whistles in this Drupal Meetup. Travis goes into detail on our implementation from what modules we use, to how much of it is contributed back to the community. Travis shows the user group just how proud we are of our technology team and the countless hours of both custom and contributed work that goes into bringing you our amazing <strong>FREE</strong> site. In the end he made sure to give the credit back to the people who keep this well oiled machine churning and looking new!</p>
+
+<p>This was all possible because <a href="http://www.meetup.com/dallasdrupal/">The Dallas Drupal Users Group</a> had a meetup titled <a href="http://www.meetup.com/dallasdrupal/events/76754772/">Case Studies on Building Drupal Sites</a>. This included talks from <a href="http://www.acquia.com/">Auquia's</a> <a href="https://twitter.com/thadm">Thad Martin</a>, and <a href="https://twitter.com/PeterPetrik">Peter Petrik</a> of <a href="http://skvare.com/">Skvare</a>, showing the diversity of applications that Drupal is used for. Be sure to look them up and give them a shout out as well as their case studies were just as awesome!</p>
+]]></content>
+  </entry>
+  
+</feed>
